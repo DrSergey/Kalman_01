@@ -21,7 +21,7 @@ public class A_B extends JFrame {
       Vector<Double> d = new Vector<Double>();
       // Заполняем вектор данными - например для функции
       double t = 0;
-      while(t<=2*Math.PI) {
+      while(t<=3*Math.PI) {
         double s = t*t;//Math.tan(t);
         d.add(new Double(s));
         t += 0.1;
