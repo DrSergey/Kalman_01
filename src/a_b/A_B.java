@@ -24,7 +24,7 @@ public class A_B extends JFrame {
       while(t<=2*Math.PI) {
         double s = t*t;//Math.tan(t);
         d.add(new Double(s));
-        t += 0.455;
+        t += 0.888;
       }
       g = new GraphPanel(d);
       getContentPane().add(g);
